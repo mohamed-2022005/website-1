@@ -672,6 +672,9 @@ footer .social-icons {
     text-align: center;
     padding: 20px 0;
     font-size: 18px;
+     @media (max-width: 768px){
+        font-size: 15px;
+    }
 }
 
 .footer a {
@@ -679,6 +682,8 @@ footer .social-icons {
     text-decoration: none;
     border-bottom: 1px solid #81c132;
     padding-bottom: 5px;
-
+  @media (max-width: 768px){
+        font-size: 15px;
+    }
 }
 
