@@ -54,6 +54,10 @@ section button {
     color: white;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+}
+section button:hover{
+    background-color: #4CAF50;
 }
 
 main {
@@ -473,17 +477,18 @@ aside .text p {
 
 aside .icon img {
     width: 900px;
-    max-width:80%;
+    max-width: 80%;
     height: 650px;
     max-height: 80%;
 }
-aside .box1{
+
+aside .box1 {
     width: 500px;
     max-width: 80%;
     height: 300px;
     max-height: 80%;
-   background-image: url(./41b7b9ce42d1f846a4d6e3d2469edd04.jpeg);
-   background-size: cover;
+    background-image: url(./41b7b9ce42d1f846a4d6e3d2469edd04.jpeg);
+    background-size: cover;
     color: white;
     padding: 15px 50px;
     display: flex;
@@ -494,23 +499,26 @@ aside .box1{
     left: 500px;
     text-align: justify;
 }
-aside p{
+
+aside p {
     margin-bottom: 30px;
     font-size: 18px;
 }
-aside .box1 p
-,aside .box2 p{
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.7); 
+
+aside .box1 p,
+aside .box2 p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 
 }
-aside .icon a{
+
+aside .icon a {
     font-size: 20px;
     text-decoration: none;
     color: white;
 
 }
 
-aside .box2{
+aside .box2 {
     width: 400px;
     height: 260px;
     background-color: white;
@@ -523,7 +531,8 @@ aside .box2{
     left: 1200px;
     text-align: justify;
 }
-aside h1{
+
+aside h1 {
     padding-top: 20px;
     font-size: 30px;
 }
@@ -534,12 +543,13 @@ aside h1{
         align-items: center;
         text-align: center;
     }
-   
+
     aside .text {
         max-width: 90%;
-    
+
     }
-    aside .text p{
+
+    aside .text p {
         margin-bottom: 40px;
     }
 
@@ -550,10 +560,10 @@ aside h1{
         align-items: center;
         gap: 20px;
     }
-  
+
     aside .box1,
     aside .box2 {
-        position: static; 
+        position: static;
         max-width: 80%;
     }
 
@@ -561,7 +571,7 @@ aside h1{
         width: 100%;
         height: auto;
     }
-    
+
 }
 
 
@@ -578,7 +588,7 @@ aside h1{
 .icon-box {
     text-align: center;
     width: 150px;
-    padding:  0 100px;
+    padding: 0 100px;
 
 }
 
@@ -600,13 +610,15 @@ aside h1{
 
     }
 }
-footer{
+
+footer {
     color: white;
     width: 100%;
     background-color: #293133;
     padding: 50px 0;
 }
-footer  p{
+
+footer p {
     font-size: 20px;
     width: 510px;
     max-width: 80%;
@@ -614,37 +626,41 @@ footer  p{
     margin: auto;
     padding: 20px 0;
 }
- footer hr{
+
+footer hr {
     width: 60%;
     margin: auto;
-    
+
 }
-footer i{
+
+footer i {
     color: white;
     font-size: 18px;
 }
-footer .social-icons{
+
+footer .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 40px ;
+    padding: 40px;
 }
-.footer{
+
+.footer {
     width: 100%;
-    background-color:#555;
+    background-color: #555;
 }
-.footer p{
+
+.footer p {
     text-align: center;
     padding: 20px 0;
     font-size: 20px;
 }
-.footer a{
+
+.footer a {
     color: #81c132;
     text-decoration: none;
     border-bottom: 1px solid #81c132;
     padding-bottom: 5px;
 
 }
-
-
